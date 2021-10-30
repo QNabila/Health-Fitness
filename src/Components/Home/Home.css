@@ -1,0 +1,84 @@
+.services{
+    width: 1000px;   
+    margin: 40px auto; 
+}
+.goals-title{
+    width: 200px;
+    margin-top: 120px;
+    color: rgb(36, 36, 36);
+    font-family:Cambria;
+    font-size: 20px;
+    text-align: left;
+    border-bottom: #18cc07 2px solid;
+    font-weight: 500;
+}
+.program-title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family:Cambria;
+    font-size: 60px;
+    text-align: left;
+    font-weight:900;
+    letter-spacing: 3px;
+}
+.slider-title{
+    margin-bottom: 300px;
+    font-size: 100px;
+    text-shadow: black;
+}
+.slider-title span{
+    color:#18cc07 ;
+}
+.slider img{
+   height: 700px;
+}
+.service-img{
+    width: 100%;
+    height: 345px;
+}
+.service-title{
+    font-family: Cambria;
+    text-align: left;    
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform:uppercase;
+}
+.service-price{
+    text-align: left;
+    font-size: 24px;
+    color: red;    
+}
+.service-description{
+    text-align: left;
+    font-size: 16px;
+}
+.services button{
+float: left;
+background-color: rgb(3, 3, 3);
+color: white;
+padding: 8px 20px;
+}
+/* Mobile device responsive */
+@media only screen and (max-width: 688px) {
+    .slider{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .conyainer img{
+        width: 100%;
+    }
+    .program-title{
+        font-size:25px ;
+    }
+    .services{
+        width: 100%;
+    }
+    .slider-title{
+        font-size: 35px;
+    }
+    .slider img{
+        width:100% ;
+    }
+}

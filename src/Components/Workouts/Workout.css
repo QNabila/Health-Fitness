@@ -1,0 +1,28 @@
+.videos iframe{
+    margin: 15px;
+}
+.video-title {
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 60px;
+    margin-bottom: 60px;
+    font-family: Cambria;  
+    font-weight: 600;
+    line-height: 80px;
+    width: 1050px;
+    border-bottom: black solid 2px;
+  }
+/* Mobile device responsive */
+@media only screen and (max-width: 688px) {
+    .videos iframe{
+        width:300px;
+    }
+    .video-title {
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+        border:none;
+        margin-left: 0px;
+}
+}

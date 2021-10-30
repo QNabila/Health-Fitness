@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    background-color: #1A1715;
+    height: 110px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    height: 50px;
+    padding-left: 50px;
+}
+.nav{
+    padding-right: 70px;
+}
+.header nav a{
+    text-decoration: none;
+    font-weight:400;
+    color: rgba(255, 255, 255, 0.897);
+    text-transform: uppercase;
+    margin-right: 30px;
+    padding: 5px;
+    font-size: 16px;  
+}
+.header nav a:hover{
+    color:#0C8500;
+    font-weight: bold;
+}
+.logout{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 8px 20px;
+    border: none;
+    margin-left: 20px;
+}
+/* Mobile device */
+@media only screen and (max-width: 688px) {
+    .header{
+        height: 200px;
+    }
+    Navbar{
+        width: 100%;
+    }
+    .link{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header img{
+        display: none;
+    }
+}

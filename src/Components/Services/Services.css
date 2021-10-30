@@ -1,0 +1,27 @@
+.program-img{
+  width: 700px;
+}
+.services-title {
+  text-align: left;
+  margin-left: 170px;
+  margin-top: 50px;
+  font-size: 59px;
+  font-family: Cambria;  
+  font-weight: 600;
+  line-height: 80px;
+}
+.learn-btn{
+  border: none;
+}
+
+/* Mobile device responsive */
+@media only screen and (max-width: 688px) {
+    .services-title{
+        font-size: 35px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .program-img{
+      width: 100%;
+    }
+}

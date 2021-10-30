@@ -1,0 +1,42 @@
+.program-name {
+  font-family: Cambria;
+}
+.service {
+  width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+}
+.cart-btn {
+  background-color: rgb(3, 3, 3);
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  margin-top: 30px;
+}
+.price {
+  color: red;
+  font-weight: 700;
+  font-size: 22px;
+}
+.modal-title{
+    font-family: cam;
+}
+.modal-name{
+    color: rgb(240, 9, 9);
+}
+#close-btn{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/* for mobile responsiveness */
+@media only screen and (max-width: 688px) {
+    .service-img{
+        width: 100%;
+    }
+    .service{
+        width: 350px;
+    }
+}
